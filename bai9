@@ -1,0 +1,23 @@
+* đường dẫn: /products	
+- phương thức: GET	
+- mô tả: Hiển thị danh sách tất cả sản phẩm.
+
+* đường dẫn: /products/add	
+- phương thức: GET	
+- mô tả: Hiển thị form để thêm mới sản phẩm.
+
+* đường dẫn: /products/add	
+- phương thức: POST	
+- mô tả: Gửi dữ liệu từ form để thêm sản phẩm mới vào cơ sở dữ liệu.
+
+* đường dẫn: /products/update/{id}	
+- phương thức: GET	
+- mô tả: Hiển thị form cập nhật sản phẩm với ID tương ứng.
+
+* đường dẫn: /products/update/{id}	
+- phương thức: POST	
+- mô tả: Gửi dữ liệu từ form để cập nhật thông tin sản phẩm.
+
+* đường dẫn: /products/delete/{id}	
+- phương thức: GET	
+- mô tả: Xóa sản phẩm với ID tương ứng khỏi cơ sở dữ liệu.
